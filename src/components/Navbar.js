@@ -54,14 +54,16 @@ const Navbar = () => {
         <AppBar position='fixed' className={classes.appBar}>
           <Toolbar>
             <Link to='/'>
-              <IconButton>
-                <img
-                  src={logo}
-                  alt='Commerce.js'
-                  height='25px'
-                  className={classes.image}
-                />
-              </IconButton>
+            <IconButton>
+              <span style={{ color: '#800000' }}>E</span> {/* Rojo oscuro */}
+              <span style={{ color: '#B22222' }}>C</span> {/* Rojo fuego */}
+              <span style={{ color: '#8B0000' }}>O</span> {/* Rojo oscuro */}
+              <span style={{ color: '#A52A2A' }}>M</span> {/* Marrón rojizo */}
+              <span style={{ color: '#D32F2F' }}>E</span> {/* Rojo brillante */}
+              <span style={{ color: '#FF6347' }}>R</span> {/* Rojo tomate */}
+              <span style={{ color: '#DC143C' }}>C</span> {/* Rojo carmesí */}
+              <span style={{ color: '#F08080' }}>E</span> {/* Rojo claro */}
+            </IconButton>
             </Link>
 
             <div className={classes.grow} />

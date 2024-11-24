@@ -7,12 +7,12 @@ const CarouselField = ({ products }) => {
     <div className="carousel-container">
       <Carousel
         showArrows={true}
-        // autoPlay={true}
-        // infiniteLoop={true}
+        autoPlay={true}
+        infiniteLoop={true}
         showStatus={false}
         showIndicators={true}
         showThumbs={false}
-        // interval={3000}
+        interval={3000}
       >
         {products.map((product) => {
           return (

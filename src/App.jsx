@@ -1,12 +1,12 @@
-import AppRouter from "./routes/AppRouter";
+import React from "react";
+import AppRouter from "./routes/AppRouter";  // Asegúrate de que AppRouter esté correctamente importado
 
-function App() {
-
+const App = () => {
   return (
-    <>
-      <AppRouter/>
-    </>
+    <div className="app">
+      <AppRouter />
+    </div>
   );
-}
+};
 
 export default App;

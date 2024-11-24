@@ -1,18 +1,19 @@
 import React from 'react';
 import './Card.css';
 
-const Card = (imgUrl, alt, text ) => {
+const Card = ({imgUrl, alt, text,id, handleViewDetail} ) => {
+  console.log(id);
   return (
     <div className='card-container'>
       <div className='card-image'>
-        <img src={imgUrl.imgUrl} alt={alt} />
+        <img src={imgUrl} alt={alt} />
       </div>
       <div className='card-text'>
-        <div className='name'>{imgUrl.text.name}</div>
-        <div className='category'>{`Categoría: ${imgUrl.text.category.slug}`}</div>
-        <div className='price'>{`Precio: $${imgUrl.text.price}`}</div>
+        <div className='name'>{text.name}</div>
+        <div className='category'>{`Categoría: ${text.category.slug}`}</div>
+        <div className='price'>{`Precio: $${text.price}`}</div>
       </div>
-        <button className='view-detail-btn'>
+        <button className='view-detail-btn' onClick={()=>handleViewDetail(id)}>
           Ver detalle
         </button>
     </div>

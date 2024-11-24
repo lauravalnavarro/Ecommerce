@@ -1,0 +1,91 @@
+/* Estilos generales para el contenedor de detalle del producto */
+.product-detail-container {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  /* Contenedor principal del producto */
+  .product-detail {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 1200px;
+    width: 100%;
+    gap: 3rem;
+  }
+  
+  /* Estilo para la imagen del producto */
+  .product-image img {
+    width: 100%;
+    max-width: 40rem;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  /* Estilo para la información del producto */
+  .product-info {
+    flex: 1;
+  }
+  
+  /* Estilo para el nombre del producto */
+  .product-info h1 {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  /* Estilo para la categoría del producto */
+  .product-info .category {
+    font-size: 1.2rem;
+    color: #777;
+    margin-bottom: 1rem;
+  }
+  
+  /* Estilo para el precio del producto */
+  .product-info .price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FF6347;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Estilo para la descripción del producto */
+  .product-info .description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+  
+  /* Estilo para el botón de agregar al carrito */
+  .add-to-cart {
+    padding: 12px 24px;
+    background-color: #FF6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #e5533a;
+  }
+  
+  /* Estilo para la carga del producto */
+  .loading {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #888;
+  }
+  

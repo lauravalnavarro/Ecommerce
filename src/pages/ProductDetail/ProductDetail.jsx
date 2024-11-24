@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import './ProductDetail.css';
+
+import '../../styles/components/ProductDetail.css';
 
 function ProductDetail() {
   const { sku } = useParams(); // Obtén el SKU del producto desde la URL.
@@ -16,7 +17,7 @@ function ProductDetail() {
         category: 'Muebles',
         price: 32999,
         description: 'Brazo de rodillo estrecho. Las patas desmontables tienen un acabado de roble envejecido...',
-        image: 'https://images.prismic.io/wizeline-academy/0d340f60-059a-43d7-8311-490815d3a8e8_1.webp?auto=compress,format',
+        image: 'https://img.freepik.com/free-photo/round-chandeliers-hanging-from-ceiling_250224-330.jpg?t=st=1732465292~exp=1732468892~hmac=9ff6ba9eee11ff2713db5847ec50e611f858af5c827003a75ff6da40e76a6fb7&w=1800',
         sku: sku,
       };
       setProduct(fetchedProduct);

@@ -11,13 +11,13 @@ import {
   useElements,
 } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js"; //trae stripe
-import { getBasketTotal } from "../reducer";
-import Review from "../components/ProcessOrder/Review";
+import { getBasketTotal } from "../../store/reducer";
+import Review from "../../components/ProcessOrder/Review";
 import { useStateValue } from "../StateProvider";
 import accounting from "accounting";
 import axios from "axios";
 import { useState } from "react";
-import { actionTypes } from "../reducer";
+import { actionTypes } from "../../store/reducer";
 
 const stripePromise = loadStripe(
   "pk_test_51HQ979HQf3hGzTFBvfhzZz0tjm98F05Nl3MeniSOU3nqBKUfCQqtAoyVChjQ49lJMitwoqYcB0YQslIThoGghKvv00bIKwKhZ5"

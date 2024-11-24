@@ -3,8 +3,8 @@ import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import { Typography } from "@material-ui/core";
 import { useStateValue } from "../StateProvider";
-import CheckoutCard from "../components/CheckoutCard";
-import Total from "../components/Total";
+import CheckoutCard from "../../components/CheckoutCard";
+import Total from "../../components/Total";
 
 const useStyles = makeStyles((theme) => ({
   root: {

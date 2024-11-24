@@ -1,0 +1,136 @@
+{
+  "page": 1,
+  "results_per_page": 5,
+  "results_size": 3,
+  "total_results_size": 3,
+  "total_pages": 1,
+  "next_page": null,
+  "prev_page": null,
+  "results": [
+    {
+      "id": "YWYojhIAACoA3RM2",
+      "uid": null,
+      "url": null,
+      "type": "banner",
+      "href": "https://img.freepik.com/free-vector/light-equipment-store-3d-realistic-ad-banner-template_1441-3538.jpg?t=st=1732462218~exp=1732465818~hmac=2ce2f09a7c4091749ecd52c13245a0059e87d3a28c5c3016b9566fef2f927134&w=2000",
+      "tags": [],
+      "first_publication_date": "2021-10-13T00:30:09+0000",
+      "last_publication_date": "2021-10-13T00:30:09+0000",
+      "slugs": ["gran-versatilidad---comedor"],
+      "linked_documents": [],
+      "lang": "es-mx",
+      "alternate_languages": [
+        {
+          "id": "YWYoshIAACkA3RPe",
+          "type": "banner",
+          "lang": "en-us"
+        }
+      ],
+      "data": {
+        "title": "GRAN VERSATILIDAD - COMEDOR",
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "Elegancia en cada detalle",
+            "spans": []
+          }
+        ],
+        "cta_link": "#",
+        "cta_target": "_parent",
+        "main_image": {
+          "dimensions": {
+            "width": 1440,
+            "height": 705
+          },
+          "alt": "GRAN VERSATILIDAD - COMEDOR",
+          "copyright": null,
+          "url": "https://img.freepik.com/free-vector/light-equipment-store-3d-realistic-ad-banner-template_1441-3538.jpg?t=st=1732462218~exp=1732465818~hmac=2ce2f09a7c4091749ecd52c13245a0059e87d3a28c5c3016b9566fef2f927134&w=2000"
+        }
+      }
+    },
+    {
+      "id": "YWYn5xIAACkA3RA3",
+      "uid": null,
+      "url": null,
+      "type": "banner",
+      "href": "https://img.freepik.com/free-photo/ceiling-lamp-bulb-decorative-hanging-interior_53876-23376.jpg?t=st=1732462113~exp=1732465713~hmac=e3199ffdefc3a1c57e9c2208be34d8a4f2fed67eeb446a00e489e18e406cd156&w=2000",
+      "tags": [],
+      "first_publication_date": "2021-10-13T00:27:23+0000",
+      "last_publication_date": "2021-10-13T00:27:23+0000",
+      "slugs": ["un-gran-estilo---sala"],
+      "linked_documents": [],
+      "lang": "es-mx",
+      "alternate_languages": [
+        {
+          "id": "YWYmORIAAC4A3Qio",
+          "type": "banner",
+          "lang": "en-us"
+        }
+      ],
+      "data": {
+        "title": "UN GRAN ESTILO - SALA",
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "spans": []
+          }
+        ],
+        "cta_link": "#",
+        "cta_target": "_parent",
+        "main_image": {
+          "dimensions": {
+            "width": 1440,
+            "height": 705
+          },
+          "alt": "UN GRAN ESTILO - SALA",
+          "copyright": null,
+          "url": "https://img.freepik.com/free-photo/ceiling-lamp-bulb-decorative-hanging-interior_53876-23376.jpg?t=st=1732462113~exp=1732465713~hmac=e3199ffdefc3a1c57e9c2208be34d8a4f2fed67eeb446a00e489e18e406cd156&w=2000"
+        }
+      }
+    },
+    {
+      "id": "YWYpFRIAAC8A3RWi",
+      "uid": null,
+      "url": null,
+      "type": "banner",
+      "href": "https://img.freepik.com/free-photo/lamp-hanging-outside-dark_1153-3482.jpg?t=st=1732462170~exp=1732465770~hmac=6fe9e5afd324d727ddd76df26ca4968d5d732458e6cb44d9dcaa1969e2fbcd09&w=2000",
+      "tags": [],
+      "first_publication_date": "2021-10-13T00:32:25+0000",
+      "last_publication_date": "2021-10-13T00:32:25+0000",
+      "slugs": ["acabados-increibles---recamara"],
+      "linked_documents": [],
+      "lang": "es-mx",
+      "alternate_languages": [
+        {
+          "id": "YWYpQRIAACkA3RZr",
+          "type": "banner",
+          "lang": "en-us"
+        }
+      ],
+      "data": {
+        "title": "ACABADOS INCREÍBLES - RECÁMARA",
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "Brinda gran estabilidad",
+            "spans": []
+          }
+        ],
+        "cta_link": "#",
+        "cta_target": "_parent",
+        "main_image": {
+          "dimensions": {
+            "width": 1440,
+            "height": 705
+          },
+          "alt": "ACABADOS INCREÍBLES - RECÁMARA",
+          "copyright": null,
+          "url": "https://img.freepik.com/free-photo/lamp-hanging-outside-dark_1153-3482.jpg?t=st=1732462170~exp=1732465770~hmac=6fe9e5afd324d727ddd76df26ca4968d5d732458e6cb44d9dcaa1969e2fbcd09&w=2000"
+        }
+      }
+    }
+  ],
+  "version": "31acd9d",
+  "license": "This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/."
+}

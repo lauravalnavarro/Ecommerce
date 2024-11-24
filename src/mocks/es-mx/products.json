@@ -1,0 +1,275 @@
+{
+  "page": 1,
+  "results_per_page": 50,
+  "results_size": 29,
+  "total_results_size": 29,
+  "total_pages": 1,
+  "next_page": null,
+  "prev_page": null,
+  "results": [
+    {
+      "id": "YWMAjhIAAC0Azvbo",
+      "uid": null,
+      "url": null,
+      "type": "product",
+      "href": "https://img.freepik.com/free-photo/round-chandeliers-hanging-from-ceiling_250224-330.jpg?t=st=1732465292~exp=1732468892~hmac=9ff6ba9eee11ff2713db5847ec50e611f858af5c827003a75ff6da40e76a6fb7&w=1800",
+      "tags": ["Sala", "Sillón"],
+      "first_publication_date": "2021-10-10T15:02:43+0000",
+      "last_publication_date": "2021-10-10T15:02:43+0000",
+      "slugs": ["sillon-spear"],
+      "linked_documents": [],
+      "lang": "es-mx",
+      "alternate_languages": [
+        {
+          "id": "YWMBVRIAAC0Azvp7",
+          "type": "product",
+          "lang": "en-us"
+        }
+      ],
+      "data": {
+        "name": "Sillón Spear",
+        "sku": "1105659217",
+        "category": {
+          "id": "YWHv7xIAACwAyjW6",
+          "type": "category",
+          "tags": [],
+          "slug": "muebles",
+          "lang": "es-mx",
+          "first_publication_date": "2021-10-09T23:34:15+0000",
+          "last_publication_date": "2021-10-12T23:30:33+0000",
+          "link_type": "Document",
+          "isBroken": false
+        },
+        "mainimage": {
+          "dimensions": {
+            "width": 696,
+            "height": 900
+          },
+          "alt": "Sillón Spear",
+          "copyright": null,
+          "url": "https://img.freepik.com/free-photo/round-chandeliers-hanging-from-ceiling_250224-330.jpg?t=st=1732465292~exp=1732468892~hmac=9ff6ba9eee11ff2713db5847ec50e611f858af5c827003a75ff6da40e76a6fb7&w=1800"
+        },
+        "short_description": "Brazo de rodillo estrecho. Las patas desmontables tienen un acabado de roble envejecido. Respaldo fijo y cojín de asiento suelto. Un marco de madera secada al horno con esquineros reforzados le dan una integridad estructural excepcional.",
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "Brazo de rodillo estrecho. Las patas desmontables tienen un acabado de roble envejecido. Respaldo fijo y cojín de asiento suelto. Un marco de madera secada al horno con esquineros reforzados le dan una integridad estructural excepcional. La madera secada al horno ayuda a prevenir la deformación, división, agrietamiento y el desarrollo de moho. El cojín está soportado por resortes de acero que no se pandean. Grano completo, teñido con anilina. La piel se suavizará y se aclarará con el uso y el paso del tiempo, desarrollando una pátina elegante. La piel es un producto natural. Las variaciones en el color y la textura son inherentes a cada piel; no existen dos piezas exactamente iguales. Cojines envueltos y mezclados para una sensación más suave",
+            "spans": []
+          }
+        ],
+        "specs": [
+          {
+            "spec_name": "Estilo",
+            "spec_value": "Contemporáneo"
+          },
+          {
+            "spec_name": "Forma pata",
+            "spec_value": "Cuadrada"
+          },
+          {
+            "spec_name": "Tipo de Brazos",
+            "spec_value": "Brazo de rollo"
+          },
+          {
+            "spec_name": "Tipo de Asiento",
+            "spec_value": "Asientos fijos"
+          },
+          {
+            "spec_name": "Color",
+            "spec_value": "Gris"
+          },
+          {
+            "spec_name": "Familia o Colección",
+            "spec_value": "Spear"
+          },
+          {
+            "spec_name": "Ancho del producto",
+            "spec_value": "73.66 cm"
+          },
+          {
+            "spec_name": "Alto del producto",
+            "spec_value": "77.47 cm"
+          },
+          {
+            "spec_name": "Peso del producto",
+            "spec_value": "19.50 kg"
+          },
+          {
+            "spec_name": "Profundidad del producto",
+            "spec_value": "77.47 cm"
+          }
+        ],
+        "images": [
+          {
+            "image": {
+              "dimensions": {
+                "width": 696,
+                "height": 900
+              },
+              "alt": null,
+              "copyright": null,
+              "url": "https://img.freepik.com/free-photo/round-chandeliers-hanging-from-ceiling_250224-330.jpg?t=st=1732465292~exp=1732468892~hmac=9ff6ba9eee11ff2713db5847ec50e611f858af5c827003a75ff6da40e76a6fb7&w=1800"
+            }
+          },
+          {
+            "image": {
+              "dimensions": {
+                "width": 696,
+                "height": 900
+              },
+              "alt": null,
+              "copyright": null,
+              "url": "https://img.freepik.com/free-photo/round-chandeliers-hanging-from-ceiling_250224-330.jpg?t=st=1732465292~exp=1732468892~hmac=9ff6ba9eee11ff2713db5847ec50e611f858af5c827003a75ff6da40e76a6fb7&w=1800"
+            }
+          },
+          {
+            "image": {
+              "dimensions": {
+                "width": 696,
+                "height": 900
+              },
+              "alt": null,
+              "copyright": null,
+              "url": "https://img.freepik.com/free-photo/round-chandeliers-hanging-from-ceiling_250224-330.jpg?t=st=1732465292~exp=1732468892~hmac=9ff6ba9eee11ff2713db5847ec50e611f858af5c827003a75ff6da40e76a6fb7&w=1800"
+            }
+          },
+          {
+            "image": {
+              "dimensions": {
+                "width": 696,
+                "height": 900
+              },
+              "alt": null,
+              "copyright": null,
+              "url": "https://img.freepik.com/free-photo/round-chandeliers-hanging-from-ceiling_250224-330.jpg?t=st=1732465292~exp=1732468892~hmac=9ff6ba9eee11ff2713db5847ec50e611f858af5c827003a75ff6da40e76a6fb7&w=1800"
+            }
+          },
+          {
+            "image": {
+              "dimensions": {
+                "width": 696,
+                "height": 900
+              },
+              "alt": null,
+              "copyright": null,
+              "url": "https://img.freepik.com/free-photo/round-chandeliers-hanging-from-ceiling_250224-330.jpg?t=st=1732465292~exp=1732468892~hmac=9ff6ba9eee11ff2713db5847ec50e611f858af5c827003a75ff6da40e76a6fb7&w=1800"
+            }
+          },
+          {
+            "image": {
+              "dimensions": {
+                "width": 696,
+                "height": 900
+              },
+              "alt": null,
+              "copyright": null,
+              "url": "https://img.freepik.com/free-photo/round-chandeliers-hanging-from-ceiling_250224-330.jpg?t=st=1732465292~exp=1732468892~hmac=9ff6ba9eee11ff2713db5847ec50e611f858af5c827003a75ff6da40e76a6fb7&w=1800"
+            }
+          }
+        ],
+        "stock": 11,
+        "price": 32999
+      }
+    },
+    {
+      "id": "YWMCVBIAAC0Azv8g",
+      "uid": null,
+      "url": null,
+      "type": "product",
+      "href": "https://img.freepik.com/free-vector/hanging-deco-glass-lamps-with-glowing-filament-antique-led-light-bulbs-realistic-dark-transparent-set_1284-31966.jpg?t=st=1732465365~exp=1732468965~hmac=03bfacebda7bedd8d5408cd252ca5761f7d8f0c37d3cab129cb60af7e5450c67&w=1380",
+      "tags": ["Sala", "Sillón"],
+      "first_publication_date": "2021-10-10T15:10:16+0000",
+      "last_publication_date": "2021-10-10T15:10:16+0000",
+      "slugs": ["sillon-thatcher"],
+      "linked_documents": [],
+      "lang": "es-mx",
+      "alternate_languages": [
+        {
+          "id": "YWMCzxIAACkAzwFP",
+          "type": "product",
+          "lang": "en-us"
+        }
+      ],
+      "data": {
+        "name": "Sillón Thatcher",
+        "sku": "1091702718",
+        "category": {
+          "id": "YWHv7xIAACwAyjW6",
+          "type": "category",
+          "tags": [],
+          "slug": "muebles",
+          "lang": "es-mx",
+          "first_publication_date": "2021-10-09T23:34:15+0000",
+          "last_publication_date": "2021-10-12T23:30:33+0000",
+          "link_type": "Document",
+          "isBroken": false
+        },
+        "mainimage": {
+          "dimensions": {
+            "width": 696,
+            "height": 900
+          },
+          "alt": "Sillón Thatcher",
+          "copyright": null,
+          "url": "https://img.freepik.com/free-vector/hanging-deco-glass-lamps-with-glowing-filament-antique-led-light-bulbs-realistic-dark-transparent-set_1284-31966.jpg?t=st=1732465365~exp=1732468965~hmac=03bfacebda7bedd8d5408cd252ca5761f7d8f0c37d3cab129cb60af7e5450c67&w=1380"
+        },
+        "short_description": "Los sillones de respaldo con alas creados por Thomas Chippendale en el siglo XVIII se definieron por sus respaldos de camello, alas de gran tamaño y brazos redondos.",
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "Los sillones de respaldo con alas creados por Thomas Chippendale en el siglo XVIII se definieron por sus respaldos de camello, alas de gran tamaño y brazos redondos. Nuestra interpretación conserva todos los puntos finos de los originales, creando un sillón que está destinado a convertirse en una reliquia. Cuenta con atractivos detalles de cabeza de clavo. Las patas son una parte fija del marco y están terminadas en espresso. El marco de esquineros en bloque con carpintería de mortaja y espiga proporciona una integridad estructural excepcional. Los resortes sinuosos de acero sin hundimiento brindan soporte amortiguador. Los niveladores ajustables brindan estabilidad en pisos irregulares.",
+            "spans": []
+          }
+        ],
+        "specs": [
+          {
+            "spec_name": "Ancho del producto",
+            "spec_value": "78.74 cm"
+          },
+          {
+            "spec_name": "Alto del Producto",
+            "spec_value": "1.04 m"
+          },
+          {
+            "spec_name": "Profundidad del producto",
+            "spec_value": "88.90 cm"
+          },
+          {
+            "spec_name": "Peso del Producto",
+            "spec_value": "23 kg"
+          },
+          {
+            "spec_name": "Material",
+            "spec_value": "Piel"
+          }
+        ],
+        "images": [
+          {
+            "image": {
+              "dimensions": {
+                "width": 696,
+                "height": 900
+              },
+              "alt": null,
+              "copyright": null,
+              "url": "https://img.freepik.com/free-vector/hanging-deco-glass-lamps-with-glowing-filament-antique-led-light-bulbs-realistic-dark-transparent-set_1284-31966.jpg?t=st=1732465365~exp=1732468965~hmac=03bfacebda7bedd8d5408cd252ca5761f7d8f0c37d3cab129cb60af7e5450c67&w=1380"
+            }
+          },
+          {
+            "image": {
+              "dimensions": {
+                "width": 696,
+                "height": 900
+              },
+              "alt": null,
+              "copyright": null,
+              "url": "https://img.freepik.com/free-vector/hanging-deco-glass-lamps-with-glowing-filament-antique-led-light-bulbs-realistic-dark-transparent-set_1284-31966.jpg?t=st=1732465365~exp=1732468965~hmac=03bfacebda7bedd8d5408cd252ca5761f7d8f0c37d3cab129cb60af7e5450c67&w=1380"
+            }
+          }
+        ],
+        "stock": 6,
+        "price": 39999
+      }
+    }
+  ]
+}

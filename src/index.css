@@ -9,6 +9,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0 8rem;
+  background-color: whitesmoke;
+  box-sizing: border-box;
+  font-family: 'Sora', sans-serif;
 }
 
 code {

@@ -1,0 +1,8 @@
+.product-list-container{
+    display: flex;
+    align-self: center;
+}
+
+.content{
+    max-width: 60%;
+}

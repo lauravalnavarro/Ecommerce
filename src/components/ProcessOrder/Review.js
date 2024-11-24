@@ -1,6 +1,6 @@
 import { Typography, List, ListItem, ListItemText } from "@material-ui/core";
 import { useStateValue } from "../../StateProvider";
-import { getBasketTotal } from "../../reducer";
+import { getBasketTotal } from "../../store/reducer";
 import accounting from "accounting";
 
 const Review = () => {

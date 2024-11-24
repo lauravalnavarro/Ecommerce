@@ -1,0 +1,39 @@
+.carousel-container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel .control-arrow {
+    border-radius: 50%;
+    padding: 10px;
+    transition: background 0.3s ease;
+  }
+
+  
+  .carousel .control-dots .dot {
+    width: 12px;
+    height: 12px;
+    transition: background 0.3s ease; 
+  }
+  
+  .carousel .control-dots .dot.selected {
+    background: #333;
+  }
+  
+  .carousel .legend {
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: fit-content;
+  }
+
+  .carousel-container img {
+    height: 45rem; 
+    object-fit: contain; 
+  }
+  
+  

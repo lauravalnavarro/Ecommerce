@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
-import { actionTypes } from "../reducer";
+import { actionTypes } from "../../store/reducer";
 import { useForm, FormProvider } from "react-hook-form";
-import AddressInput from "../components/ProcessOrder/AddressInput";
+import AddressInput from "../../components/ProcessOrder/AddressInput";
 import { Button } from "@material-ui/core";
 import { Link } from "react-router-dom";
 import { useStateValue } from "../StateProvider";

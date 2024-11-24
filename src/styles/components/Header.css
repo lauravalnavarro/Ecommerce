@@ -1,0 +1,79 @@
+/* Estilos principales */
+.navbar-root {
+  flex-grow: 1;
+  margin-bottom: 7rem;
+}
+
+.navbar-appBar {
+  position: fixed;
+  top: 0;
+  width: 85%;
+  box-shadow: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:whitesmoke ;
+  padding: 2rem 1rem;
+  z-index: 100;
+}
+
+.navbar-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+}
+
+.navbar-grow {
+  flex-grow: 1;
+}
+
+.navbar-button {
+  margin-left: 16px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navbar-logo {
+  font-size: 3rem;
+}
+
+.navbar-cart-icon {
+  border: none;
+}
+
+.navbar-typography {
+  font-size: 1rem;
+  color: #333;
+}
+
+.input-header input {
+  padding: 5px;
+  width: 300px;
+}
+
+.input-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  input {
+    border: none;
+    padding: 1rem;
+    border-radius: 0.7rem;
+    width: 20rem;
+  }
+}
+
+.navbar-logo-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header-rigth{
+  width: 35%;
+  display: flex;
+  justify-content: space-evenly;
+}

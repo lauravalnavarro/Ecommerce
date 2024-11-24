@@ -1,0 +1,67 @@
+.checkout-page {
+    padding: 2rem;
+    display: flex; /* Usamos Flexbox para alinear tarjetas y total */
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  /* Título principal */
+  .checkout-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  /* Contenedor principal de las tarjetas */
+  .checkout-container {
+    flex: 3; /* Las tarjetas ocupan más espacio */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  /* Cada tarjeta */
+  .checkout-card-container {
+    flex: 1 1 calc(33.333% - 1rem); /* 3 tarjetas por fila */
+    width: 35rem;
+  }
+  
+  /* Contenedor del total */
+  .checkout-total-container {
+    flex: 1; /* El total ocupa un espacio menor */
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .checkout-total-container h4 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .checkout-total-container p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .checkout-total-container button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .checkout-total-container button:hover {
+    background-color: #0056b3;
+  }
+  

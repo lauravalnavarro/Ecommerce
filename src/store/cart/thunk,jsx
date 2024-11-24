@@ -1,0 +1,15 @@
+import { addToCart, removeFromCart, clearCart } from './cartSlice';
+
+export const fetchCartFromAPI = () => async (dispatch) => {
+  try {
+    // Simulamos una llamada a la API
+    const cartData = await fetch('https://api.example.com/cart').then(res => res.json());
+
+    // Aquí puedes realizar la lógica para agregar los elementos al carrito
+    cartData.forEach(product => {
+      dispatch(addToCart(product));
+    });
+  } catch (error) {
+    console.error('Error fetching cart data:', error);
+  }
+};

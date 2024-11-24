@@ -1,0 +1,58 @@
+.total-container {
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 90%;
+    border-radius: 8px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+  }
+  
+  .total-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .total-items {
+    margin-bottom: 1rem;
+  }
+  
+  .total-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.25rem 0;
+    font-size: 0.9rem;
+  }
+  
+  .item-name {
+    color: #555;
+  }
+  
+  .item-price {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .total-summary {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .total-label {
+    color: #555;
+  }
+  
+  .total-price {
+    color: #333;
+  }
+  
+  .total-checkout-button {
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 200px;
+  }
+  

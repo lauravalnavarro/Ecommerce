@@ -3,10 +3,12 @@
     border-radius: 8px;
     overflow: hidden;
     display: flex;
-    flex-direction: column;
+    align-items: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    margin: 2rem 0;
+    width: 30rem;
+    height: 15rem;
+    padding: 0 2rem;
   }
   
   .checkout-card:hover {
@@ -15,14 +17,15 @@
   }
   
   .checkout-card-media {
+    flex: 0 0 180px;
     height: 180px;
     background-size: cover;
     background-position: center;
   }
   
   .checkout-card-body {
+    flex: 1;
     padding: 1rem;
-    text-align: center;
   }
   
   .checkout-card-title {
@@ -45,20 +48,44 @@
   }
   
   .checkout-card-actions {
-    padding: 0.5rem 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 1px solid #e0e0e0;
+    padding: 0.5rem;
   }
   
-  .checkout-card-rating {
+  .checkout-card-counter {
     display: flex;
-    gap: 0.2rem;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .checkout-card-counter-btn {
+    background: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: 0.2rem 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .checkout-card-counter-btn:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .checkout-card-quantity {
+    font-size: 1rem;
+    font-weight: bold;
+  
   }
   
   .checkout-card-delete-btn {
+    background: none;
+    border: none;
     color: #ff6347;
+    font-size: 1.5rem;
+    cursor: pointer;
     transition: color 0.3s ease;
   }
   

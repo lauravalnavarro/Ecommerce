@@ -8,9 +8,6 @@ import Logo from './Logo';
 const Header = () => {
   const [valueTerm, setValueTerm] = useState('');
 
-  const handleSearchInput = (e) => {
-    setValueTerm(e.target.value);
-  };
 
   return (
     <div className="navbar-root">
@@ -22,18 +19,10 @@ const Header = () => {
             </Link>
           </div>
           <div className="header-rigth">
-            <div className="input-header">
-                <input
-                type="text"
-                placeholder="Search"
-                value={valueTerm}
-                onChange={handleSearchInput}
-                />
-            </div>
             <div className="navbar-button">
                 <Link to="/checkout-page">
                 <div className="navbar-cart-icon">
-                    <Badge overlap="rectangular" badgeContent={10} color="secondary">
+                    <Badge overlap="rectangular" badgeContent={2} color="secondary">
                     <ShoppingCart fontSize="large" />
                     </Badge>
                 </div>

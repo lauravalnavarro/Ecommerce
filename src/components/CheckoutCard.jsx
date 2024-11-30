@@ -1,44 +1,67 @@
-import React from "react";
-import Card from "@material-ui/core/Card";
-import CardMedia from "@material-ui/core/CardMedia";
-import CardActions from "@material-ui/core/CardActions";
-import IconButton from "@material-ui/core/IconButton";
-import Typography from "@material-ui/core/Typography";
-import DeleteIcon from "@material-ui/icons/Delete";
+import React, { useState } from "react";
 import accounting from "accounting";
 import "../styles/components/CheckoutCard.css";
 
 const CheckoutCard = ({ product }) => {
-  const { name, price, rating, href } = product;
+  const { name, href } = product;
+
+  console.log(product, name);
+
+  const [quantity, setQuantity] = useState(1);
 
   const removeItem = () => {
     console.log("remove");
   };
 
+  const increaseQuantity = () => {
+    setQuantity(quantity + 1);
+  };
+
+  const decreaseQuantity = () => {
+    if (quantity > 1) {
+      setQuantity(quantity - 1);
+    }
+  };
+
   return (
-    <Card className="checkout-card">
-      <CardMedia className="checkout-card-media" image={href} title={name} />
+    <div className="checkout-card">
+      <div
+        className="checkout-card-media"
+        style={{ backgroundImage: `url(${href})` }}
+        title={name}
+      ></div>
       <div className="checkout-card-body">
-        <Typography className="checkout-card-title">{name}</Typography>
-        <Typography className="checkout-card-price">
-          {accounting.formatMoney(price, "€")}
-        </Typography>
-        <Typography className="checkout-card-stock">In Stock</Typography>
+        <h3 className="checkout-card-title">{product.data.name}</h3>
+        <p className="checkout-card-price">{accounting.formatMoney(product.data.price, "€")}</p>
+        <p className="checkout-card-stock">In Stock</p>
       </div>
-      <CardActions disableSpacing className="checkout-card-actions">
-        <div className="checkout-card-rating">
-          {Array(rating)
-            .fill()
-            .map((_, i) => (
-              <p key={i}>&#11088;</p>
-            ))}
+      <div className="checkout-card-actions">
+        <div className="checkout-card-counter">
+          <button
+            onClick={decreaseQuantity}
+            className="checkout-card-counter-btn"
+          >
+            -
+          </button>
+          <span className="checkout-card-quantity">{quantity}</span>
+          <button
+            onClick={increaseQuantity}
+            className="checkout-card-counter-btn"
+          >
+            +
+          </button>
         </div>
-        <IconButton onClick={removeItem} className="checkout-card-delete-btn">
-          <DeleteIcon fontSize="large" />
-        </IconButton>
-      </CardActions>
-    </Card>
+        <button
+          onClick={removeItem}
+          className="checkout-card-delete-btn"
+          aria-label="Remove item"
+        >
+          🗑️
+        </button>
+      </div>
+    </div>
   );
 };
 
 export default CheckoutCard;
+

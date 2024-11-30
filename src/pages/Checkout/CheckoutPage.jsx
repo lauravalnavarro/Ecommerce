@@ -42,10 +42,8 @@ const CheckoutPage = () => {
         <div className="checkout-card-container">
           <FormRow />
         </div>
-        <div className="checkout-total-container">
-          <Typography gutterBottom variant="h4">
-            <Total />
-          </Typography>
+        <div className="checkout-total-container"> 
+            <Total />  
         </div>
       </div>
     </div>

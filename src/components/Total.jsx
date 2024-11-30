@@ -4,19 +4,18 @@ import { Link } from "react-router-dom";
 import "../styles/components/Total.css";
 
 const Total = () => {
-  // Mock de productos si no hay un carrito disponible.
+  // Mock basket if no cart is available.
   const basket = [
-    { id: 1, name: "Producto A", price: 100 },
-    { id: 2, name: "Producto B", price: 200 },
-    { id: 3, name: "Producto C", price: 150 },
+    { id: 1, name: "Boho Lamp", price: 32900 },
+    { id: 2, name: "Modern Lamp", price: 39900 },
   ];
 
-  // Calcular el precio total.
+  // Calculate total price.
   const totalPrice = basket.reduce((acc, item) => acc + item.price, 0);
 
   return (
-    <div className="total-container">
-      <h3 className="total-title">Factura</h3>
+    <>
+      <h3 className="total-title">Receipt</h3>
       <div className="total-items">
         {basket.map((item) => (
           <div key={item.id} className="total-item">
@@ -36,10 +35,11 @@ const Total = () => {
         variant="contained"
         color="secondary"
       >
-        Pagar
+        Pay
       </Button>
-    </div>
+    </>
   );
 };
 
 export default Total;
+
